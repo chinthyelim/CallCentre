@@ -1,0 +1,39 @@
+// Vuetify
+@import '~vuetify/dist/vuetify.min.css';
+//@import '~@mdi/font/css/materialdesignicons.min.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.1.45/css/materialdesignicons.min.css');
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.welcomeContent {
+  float: left;
+  width: 100%;
+}
+.welcomeContentLeft {
+  float: left;
+  width: 15%;
+}
+.welcomeContentRight {
+  float: left;
+  width: 85%;
+}
+.navbar-light .navbar-brand {
+  color: blue;
+}
+.footerRight {
+  font-size: 1em;
+  text-align: right;
+  margin-right: 10px;
+  color: grey;
+}
+.col-form-label {
+  padding-top: calc(0.375rem + 14px);
+}
